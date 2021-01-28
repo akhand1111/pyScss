@@ -5,8 +5,10 @@ addons:
     packages:
     - libpcre2-dev
 arch:
-- arm64
 - amd64
+- arm64-graviton2
+virt: lxd
+group: edge
 python:
 - '3.6'
 - '3.7'
